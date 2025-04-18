@@ -1,0 +1,25 @@
+/* styles.css */
+.highlight {
+  background-color: yellow;
+}
+
+.img {
+  width: 80%;
+  height: auto; /* maintain aspect ratio */
+  max-height: 300px;
+  object-fit: cover; /* resize the image to cover the container, while maintaining its aspect ratio */
+}
+
+.fillInput {
+  display: none;
+}
+
+.highlight-text {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.img-news {
+  width: 100px;
+  height: 100px;
+}
